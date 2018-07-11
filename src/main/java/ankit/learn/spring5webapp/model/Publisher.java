@@ -21,6 +21,9 @@ public class Publisher {
         this.address = address;
     }
 
+    public Publisher() {
+    }
+
     public String getName() {
         return name;
     }

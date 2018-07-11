@@ -32,6 +32,9 @@ public class Book {
     this.publisher = publisher;
   }
 
+  public Book() {
+  }
+
   public Set<Author> getAuthors() {
     return authors;
   }

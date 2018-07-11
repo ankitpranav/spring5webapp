@@ -27,6 +27,9 @@ public class Author {
         LastName = lastName;
     }
 
+    public Author() {
+    }
+
     public String getFirstName() {
         return firstName;
     }
